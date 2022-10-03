@@ -1,6 +1,6 @@
 ---
-title: "Nick Strayer's CV"
-author: Nick Strayer
+title: "Carly Deal's CV"
+author: Carly Deal
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -77,15 +77,13 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "R",                  3,
+  "STATA",              4.5,
+  "Microsoft Suite",    5,
+  "Qualitris",          4.5,
+  "REDCap",             5,
+  
 )
-
 build_skill_bars(skills)
 ```
 
@@ -181,5 +179,4 @@ Links {data-icon=link}
   })
 }
 ```
-
 
